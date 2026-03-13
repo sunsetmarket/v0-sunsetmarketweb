@@ -5,7 +5,6 @@ import { BrandsSection } from "@/components/brands-section"
 import { VisitorsSection } from "@/components/visitors-section"
 import { CollaboratorsSection } from "@/components/collaborators-section"
 import { Gallery } from "@/components/gallery"
-import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 
@@ -19,7 +18,6 @@ export default function Home() {
       <VisitorsSection />
       <CollaboratorsSection />
       <Gallery />
-      <Testimonials />
       <Contact />
       <Footer />
     </main>
