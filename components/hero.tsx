@@ -40,21 +40,19 @@ export function Hero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button 
             asChild
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-sm tracking-wide"
+            className="bg-primary hover:bg-primary/90 hover:scale-105 text-primary-foreground px-10 py-7 text-base font-medium tracking-wide rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <a href="#marcas">SOY UNA MARCA</a>
           </Button>
           <Button 
             asChild
-            variant="outline"
-            className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 py-6 text-sm tracking-wide"
+            className="bg-primary hover:bg-primary/90 hover:scale-105 text-primary-foreground px-10 py-7 text-base font-medium tracking-wide rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <a href="#visitantes">SOY UN VISITANTE</a>
           </Button>
           <Button 
             asChild
-            variant="outline"
-            className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 py-6 text-sm tracking-wide"
+            className="bg-primary hover:bg-primary/90 hover:scale-105 text-primary-foreground px-10 py-7 text-base font-medium tracking-wide rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <a href="#colaboradores">SOY UN COLABORADOR</a>
           </Button>

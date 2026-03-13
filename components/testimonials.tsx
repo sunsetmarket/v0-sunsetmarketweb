@@ -20,15 +20,12 @@ export function Testimonials() {
   ]
 
   return (
-    <section className="py-24 md:py-32 bg-secondary">
+    <section className="py-28 md:py-40 bg-background">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="text-primary font-medium tracking-widest text-sm uppercase mb-4">
-            Testimonios
-          </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6">
-            Lo que dicen de nosotros
+        <div className="text-center max-w-3xl mx-auto mb-20">
+          <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold text-foreground mb-8 tracking-tight">
+            TESTIMONIOS
           </h2>
         </div>
 

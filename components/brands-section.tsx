@@ -29,12 +29,12 @@ export function BrandsSection() {
   ]
 
   return (
-    <section id="marcas" className="py-24 md:py-32 bg-secondary">
+    <section id="marcas" className="py-28 md:py-40 bg-secondary">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-20 items-start">
           {/* Image */}
           <div className="relative">
-            <div className="aspect-[4/5] relative overflow-hidden rounded-2xl">
+            <div className="aspect-[4/5] relative overflow-hidden rounded-2xl shadow-2xl">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SUNST%2022%20AGO%202025%20-%200043-ElAl2aGQVL7rFUiq9nqJ0NGJMzf62q.jpg"
                 alt="Expositora de moda en Sunset Market"
@@ -42,37 +42,36 @@ export function BrandsSection() {
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-2xl -z-10" />
+            <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-primary/10 rounded-2xl -z-10" />
           </div>
 
           {/* Content */}
           <div>
-            <p className="text-primary font-medium tracking-widest text-sm uppercase mb-4">
-              Soy una Marca
-            </p>
-            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6">
-              Expón tu marca en Sunset Market
+            <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold text-foreground mb-8 tracking-tight">
+              SOY UNA MARCA
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-12">
+            <p className="text-xl text-muted-foreground leading-relaxed mb-14">
               Sunset Market ofrece a las marcas emergentes un espacio único para conectar con nuevos públicos, presentar sus productos y formar parte de una comunidad creativa.
             </p>
 
             {/* Steps */}
-            <div className="mb-10">
-              <h3 className="font-serif text-2xl font-semibold text-foreground mb-8">
+            <div className="mb-12">
+              <h3 className="font-serif text-3xl font-semibold text-foreground mb-10">
                 Cómo participar
               </h3>
-              <div className="space-y-8">
+              <div className="space-y-10">
                 {steps.map((step) => (
-                  <div key={step.number} className="flex gap-6">
+                  <div key={step.number} className="flex gap-8">
                     <div className="flex-shrink-0">
-                      <span className="font-serif text-3xl font-semibold text-primary/30">
-                        {step.number}
-                      </span>
+                      <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                        <span className="font-serif text-2xl font-bold text-primary">
+                          {step.number}
+                        </span>
+                      </div>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground mb-2">{step.title}</h4>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
+                      <h4 className="text-xl font-semibold text-foreground mb-3">{step.title}</h4>
+                      <p className="text-base text-muted-foreground leading-relaxed">
                         {step.description}
                       </p>
                     </div>
@@ -83,7 +82,7 @@ export function BrandsSection() {
 
             <Button 
               onClick={() => setShowForm(!showForm)}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-sm tracking-wide"
+              className="bg-primary hover:bg-primary/90 hover:scale-105 text-primary-foreground px-10 py-7 text-base font-medium tracking-wide rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               APLICAR COMO EXPOSITOR
             </Button>

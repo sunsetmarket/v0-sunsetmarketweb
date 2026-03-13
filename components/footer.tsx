@@ -2,15 +2,15 @@ import { Instagram, Mail } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="py-12 bg-foreground text-background">
+    <footer className="py-16 bg-foreground text-background">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
           <div>
-            <h3 className="font-serif text-2xl font-semibold tracking-wide">
+            <h3 className="font-serif text-3xl font-semibold tracking-wider">
               SUNSET MARKET
             </h3>
-            <p className="text-background/60 text-sm mt-1">Marbella</p>
+            <p className="text-background/60 text-sm mt-2">Marbella</p>
           </div>
 
           {/* Social Links */}

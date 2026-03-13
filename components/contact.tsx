@@ -23,17 +23,14 @@ export function Contact() {
   ]
 
   return (
-    <section id="contacto" className="py-24 md:py-32 bg-background">
+    <section id="contacto" className="py-28 md:py-40 bg-secondary">
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-16">
-          <p className="text-primary font-medium tracking-widest text-sm uppercase mb-4">
-            Contacto
-          </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6">
-            Hablemos
+        <div className="text-center mb-20">
+          <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold text-foreground mb-8 tracking-tight">
+            CONTACTO
           </h2>
-          <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             ¿Tienes alguna pregunta o quieres saber más sobre Sunset Market? No dudes en ponerte en contacto con nosotros.
           </p>
         </div>
