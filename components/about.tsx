@@ -1,5 +1,14 @@
 import Image from "next/image"
 
+const aboutText = {
+  title: "SOBRE NOSOTROS",
+  paragraphs: [
+    "Sunset Market es una organizadora de eventos especializada en la creación de markets experienciales que van mucho más allá del mercadillo tradicional.",
+    "Diseñamos espacios vivos donde convergen marcas emergentes, música, gastronomía y actividades interactivas, generando experiencias memorables tanto para expositores como para el público.",
+    "Con más de 10 ediciones realizadas en la Costa del Sol, nos hemos consolidado como un referente en la organización de markets que priorizan la experiencia del consumidor, el cuidado del entorno y la conexión real entre marcas y personas."
+  ]
+}
+
 export function About() {
   return (
     <section id="sobre" className="py-28 md:py-40 bg-background">
@@ -8,18 +17,12 @@ export function About() {
           {/* Text Content */}
           <div className="order-2 lg:order-1">
             <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold text-foreground mb-10 tracking-tight">
-              SOBRE NOSOTROS
+              {aboutText.title}
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
-              <p>
-                Sunset Market es una organizadora de eventos especializada en la creación de markets experienciales que van mucho más allá del mercadillo tradicional.
-              </p>
-              <p>
-                Diseñamos espacios vivos donde convergen marcas emergentes, música, gastronomía y actividades interactivas, generando experiencias memorables tanto para expositores como para el público.
-              </p>
-              <p>
-                Con más de 10 ediciones realizadas en la Costa del Sol, nos hemos consolidado como un referente en la organización de markets que priorizan la experiencia del consumidor, el cuidado del entorno y la conexión real entre marcas y personas.
-              </p>
+              {aboutText.paragraphs.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
             </div>
           </div>
 
@@ -28,12 +31,11 @@ export function About() {
             <div className="aspect-[4/5] relative overflow-hidden rounded-2xl shadow-2xl">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC03636-Aprimorado-NR-MZKeLdmMj4GKRnf9022T4C7ouS4Rkc.jpg"
-                alt="Vista panorámica del mercado Sunset Market"
+                alt="Vista del mercado Sunset Market"
                 fill
                 className="object-cover"
               />
             </div>
-            {/* Decorative element */}
             <div className="absolute -bottom-6 -left-6 w-40 h-40 bg-primary/10 rounded-2xl -z-10" />
           </div>
         </div>
