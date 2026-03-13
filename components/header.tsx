@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
-import Image from "next/image"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,24 +11,15 @@ export function Header() {
     { href: "#marcas", label: "Soy una Marca" },
     { href: "#visitantes", label: "Soy Visitante" },
     { href: "#colaboradores", label: "Colaboradores" },
-    { href: "#galeria", label: "Galeria" },
+    { href: "#galeria", label: "Galería" },
     { href: "#contacto", label: "Contacto" },
   ]
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border/50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo.png.%20-P98iidsGWgFUeTIaLnNvdawV4by2GQ.png"
-            alt="Sunset Market Logo"
-            width={40}
-            height={40}
-            className="w-10 h-10"
-          />
-          <span className="font-serif text-xl font-semibold text-foreground tracking-wider">
-            SUNSET MARKET
-          </span>
+      <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+        <a href="#" className="font-serif text-2xl font-semibold text-foreground tracking-wider">
+          SUNSET MARKET
         </a>
 
         {/* Desktop Navigation */}

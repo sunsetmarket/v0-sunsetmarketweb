@@ -1,5 +1,4 @@
 import { Instagram, Mail } from "lucide-react"
-import Image from "next/image"
 
 export function Footer() {
   return (
@@ -7,20 +6,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
-          <div className="flex items-center gap-4">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo.png.%20-P98iidsGWgFUeTIaLnNvdawV4by2GQ.png"
-              alt="Sunset Market Logo"
-              width={50}
-              height={50}
-              className="w-12 h-12 brightness-0 invert"
-            />
-            <div>
-              <h3 className="font-serif text-2xl font-semibold tracking-wider">
-                SUNSET MARKET
-              </h3>
-              <p className="text-background/60 text-sm">Marbella</p>
-            </div>
+          <div>
+            <h3 className="font-serif text-3xl font-semibold tracking-wider">
+              SUNSET MARKET
+            </h3>
+            <p className="text-background/60 text-sm mt-2">Marbella</p>
           </div>
 
           {/* Social Links */}
