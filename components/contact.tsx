@@ -1,0 +1,62 @@
+import { Mail, Phone, Instagram } from "lucide-react"
+
+export function Contact() {
+  const contactInfo = [
+    {
+      icon: Mail,
+      label: "Email",
+      value: "sunsetmarketmarbella@gmail.com",
+      href: "mailto:sunsetmarketmarbella@gmail.com"
+    },
+    {
+      icon: Phone,
+      label: "WhatsApp",
+      value: "+34 636 688 971",
+      href: "https://wa.me/34636688971"
+    },
+    {
+      icon: Instagram,
+      label: "Instagram",
+      value: "@sunsetmarketmarbella",
+      href: "https://instagram.com/sunsetmarketmarbella"
+    }
+  ]
+
+  return (
+    <section id="contacto" className="py-24 md:py-32 bg-background">
+      <div className="max-w-4xl mx-auto px-6">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <p className="text-primary font-medium tracking-widest text-sm uppercase mb-4">
+            Contacto
+          </p>
+          <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-6">
+            Hablemos
+          </h2>
+          <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            ¿Tienes alguna pregunta o quieres saber más sobre Sunset Market? No dudes en ponerte en contacto con nosotros.
+          </p>
+        </div>
+
+        {/* Contact Cards */}
+        <div className="grid md:grid-cols-3 gap-6">
+          {contactInfo.map((contact) => (
+            <a
+              key={contact.label}
+              href={contact.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-8 bg-secondary rounded-2xl text-center hover:bg-primary/10 transition-colors duration-300 border border-transparent hover:border-primary/30"
+            >
+              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
+                <contact.icon className="text-primary" size={24} />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">{contact.label}</h3>
+              <p className="text-sm text-muted-foreground break-all">{contact.value}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
