@@ -91,11 +91,11 @@ export function CollaboratorsSection() {
               Ofrecemos packs de patrocinio y activaciones de marca para empresas que quieran formar parte de la experiencia.
             </p>
             <Button 
-              onClick={() => setActiveForm(activeForm === "sponsors" ? null : "sponsors")}
+              onClick={() =>  window.location.href = "#contacto"}
               variant="outline"
               className="border-primary text-primary hover:bg-primary/10 px-6 py-5"
             >
-              Solicitar información de patrocinio
+              Contacta con nosotros
             </Button>
 
             {activeForm === "sponsors" && (
