@@ -41,7 +41,7 @@ export function CollaboratorsSection() {
               variant="outline"
               className="border-primary text-primary hover:bg-primary/10 px-6 py-5"
             >
-              Proponer un espacio
+              Contacta con nosotros
             </Button>
 
             {activeForm === "spaces" && (
