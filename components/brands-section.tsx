@@ -14,7 +14,7 @@ export function BrandsSection() {
     {
       number: "01",
       title: "Rellena el formulario",
-      description: "A través del formulario podrás enviarnos tus datos, una breve descripción de tu marca o comercio y los productos que ofreces. Tras rellenarlo revisaremos tu solicitud."
+      description: "A través del formulario podrás enviarnos tus datos, una breve descripción de tu marca y los productos que ofreces. Tras rellenarlo revisaremos tu solicitud."
     },
     {
       number: "02",
@@ -24,7 +24,7 @@ export function BrandsSection() {
     {
       number: "03",
       title: "Confirmación y reserva",
-      description: "Una vez aprobada la solicitud, nos pondremos en contacto contigo para asignarte un puesto y formalizar tu participación."
+      description: "Una vez aprobada la solicitud, nos pondremos en contacto contigo para asignarte un stand y formalizar tu participación."
     }
   ]
 
