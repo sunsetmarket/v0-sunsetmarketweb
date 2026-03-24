@@ -52,10 +52,10 @@ export function VisitorsSection() {
   }
 
   const highlights = [
-    { icon: Sparkles, title: "Marcas Únicas", desc: "Diseñadores y artesanos locales" },
-    { icon: Music, title: "Música en Vivo", desc: "Ambiente con sesiones de DJ" },
-    { icon: UtensilsCrossed, title: "Gastronomía", desc: "Food trucks y bebidas artesanales" },
-    { icon: Sun, title: "Atardeceres", desc: "Las mejores vistas de la Costa del Sol" },
+    { icon: Sparkles, title: "Marcas Únicas", desc: "Descubre expositores con propuestas únicas, creativas y diferenciadoras." },
+    { icon: Music, title: "Entretenimiento", desc: "Disfruta de actividades para todas las edades, desde música en vivo hasta experiencias pensadas para toda la familia." },
+    { icon: UtensilsCrossed, title: "Gastronomía", desc: "Explora propuestas gastronómicas de diferentes culturas que despertarán todos tus sentidos." },
+    { icon: Sun, title: "Experiencia", desc: "Mucho más que un market: un plan para disfrutar, descubrir y repetir." },
   ]
 
   return (
