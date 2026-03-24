@@ -37,7 +37,7 @@ export function CollaboratorsSection() {
               Nuestros eventos atraen público, dinamizan zonas comerciales y dan visibilidad a los espacios donde se realizan.
             </p>
             <Button 
-              onClick={() => setActiveForm(activeForm === "spaces" ? null : "spaces")}
+              onClick={() =>  window.location.href = "#contacto"}
               variant="outline"
               className="border-primary text-primary hover:bg-primary/10 px-6 py-5"
             >
