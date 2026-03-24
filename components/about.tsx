@@ -4,7 +4,7 @@ const aboutText = {
   title: "SOBRE NOSOTROS",
   paragraphs: [
     "Sunset Market es una organizadora de eventos especializada en la creación de markets experienciales que van mucho más allá del mercadillo tradicional.",
-    "Diseñamos espacios vivos donde convergen marcas emergentes, música, gastronomía y actividades interactivas, generando experiencias memorables tanto para expositores como para el público.",
+    "Diseñamos espacios vivos donde convergen marcas emergentes, música, gastronomía y actividades interactivas, generando experiencias memorables tanto para expositores como para el visitantes.",
     "Con más de 10 ediciones realizadas en la Costa del Sol, nos hemos consolidado como un referente en la organización de markets que priorizan la experiencia del consumidor, el cuidado del entorno y la conexión real entre marcas y personas."
   ]
 }
