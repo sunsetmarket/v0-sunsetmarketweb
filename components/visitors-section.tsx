@@ -78,7 +78,7 @@ export function VisitorsSection() {
             SOY UN VISITANTE
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Sunset Market es un evento donde podrás descubrir marcas emergentes, disfrutar de música, gastronomía y vivir una experiencia única en un ambiente creativo y social.
+            El mejor plan para descubrir marcas con propuestas únicas, disfrutar del mejor ambiente, música y gastronomía en un entorno único.
           </p>
         </div>
 
