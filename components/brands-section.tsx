@@ -82,9 +82,8 @@ export function BrandsSection() {
 
             <Button 
               
-              onClick={() => setShowForm(!showForm)}
+              onClick={() => window.open("https://sunsetmarketmarbellaincripcion.fillout.com/t/h7AcuZDogqus", "_blank")}
               className="bg-primary hover:bg-primary/90 hover:scale-105 text-primary-foreground px-10 py-7 text-base font-medium tracking-wide rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
-              APLICAR COMO EXPOSITOR
             </Button>
 
             {/* Form */}
