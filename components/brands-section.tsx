@@ -138,7 +138,7 @@ export function BrandsSection() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="photos">Fotos del producto</Label>
+                  <Label htmlFor="photos">Fotos de tu marca </Label>
                   <Input id="photos" type="file" multiple accept="image/*" className="bg-input" />
                 </div>
 
