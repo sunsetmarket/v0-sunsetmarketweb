@@ -31,7 +31,7 @@ export function Contact() {
             CONTACTO
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-            ¿Tienes alguna pregunta o quieres saber más sobre Sunset Market? No dudes en ponerte en contacto con nosotros.
+            Si deseas ponerte en contacto con el equipo de Sunset Market, puedes hacerlo a través de los siguientes medios. Estaremos encantados de atender tu consulta lo antes posible.
           </p>
         </div>
 
