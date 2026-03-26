@@ -19,12 +19,12 @@ export function BrandsSection() {
     {
       number: "02",
       title: "Valoramos tu propuesta",
-      description: "Nuestro equipo analizará si tu marca encaja con la filosofía de Sunset Market y comprobará la disponibilidad de espacios en los próximos eventos."
+      description: "Analizamos cada solicitud cuidadosamente para asegurar una selección cuidada, variada y alineada con la esencia y valores de Sunset Market."
     },
     {
       number: "03",
       title: "Confirmación y reserva",
-      description: "Una vez aprobada la solicitud, nos pondremos en contacto contigo para asignarte un stand y formalizar tu participación."
+      description: "Si tu marca encaja, te contactaremos para que formes parte de nuestra comunidad de expositores, donde compartimos todas las convocatorias y próximos markets."
     }
   ]
 
@@ -51,7 +51,7 @@ export function BrandsSection() {
               SOY UNA MARCA
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed mb-14">
-              Sunset Market ofrece a las marcas emergentes un espacio único para conectar con nuevos públicos, presentar sus productos y formar parte de una comunidad creativa.
+              Sunset Market ofrece a las marcas emergentes un espacio único para conectar con nuevos públicos, presentar sus productos y formar parte de una comunidad.
             </p>
 
             {/* Steps */}
