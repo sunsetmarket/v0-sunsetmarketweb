@@ -11,7 +11,7 @@ export function Contact() {
     {
       icon: Phone,
       label: "WhatsApp",
-      value: "+34 636 688 971",
+      value: "+34 636 688 971 / +34 647 746 985 ",
       href: "https://wa.me/34636688971"
     },
     {
