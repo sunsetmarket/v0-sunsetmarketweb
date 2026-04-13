@@ -10,22 +10,22 @@ export function VisitorsSection() {
   
   const events = [
     {
-      name: "Sunset Market Marbella",
-      location: "Parque de la Constitución",
-      date: "5 Abril 2026",
-      time: "17:00 - 22:00",
-      day: 5,
-      month: 3,
+      name: "Sunset Market Boulevard San Pedro Marbella",
+      location: "Avenida Luis Braille, s/n Avenida Norberto Goizueta Díaz, s/n, 29670 San Pedro Alcántara, Málaga, España",
+      date: "6 Junio 2026",
+      time: "16:00 - 21:00",
+      day: 6,
+      month: 6,
       year: 2026,
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SUNST%2022%20AGO%202025%20-%200025-aPzSgAKIjcdgH183CoaGDoeIOZMBnP.jpg"
     },
     {
-      name: "Sunset Market San Pedro",
-      location: "Bulevar San Pedro Alcántara",
-      date: "19 Abril 2026",
+      name: "Sunset Market La Cala Resort",
+      location: "C. Mirador del Golf, 1, 29649 Mijas, Málaga, España",
+      date: "11 Julio 2026",
       time: "17:00 - 22:00",
-      day: 19,
-      month: 3,
+      day: 11,
+      month: 7,
       year: 2026,
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SUNST%2022%20AGO%202025%20-%200058-E6LZM1JsEcSXs6o2BfkD1Q5ae7OhL8.jpg"
     },
