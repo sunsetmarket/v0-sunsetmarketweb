@@ -27,7 +27,7 @@ export function VisitorsSection() {
       day: 11,
       month: 7,
       year: 2026,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SUNST%2022%20AGO%202025%20-%200058-E6LZM1JsEcSXs6o2BfkD1Q5ae7OhL8.jpg"
+      image: "/images/lacalafoto.jpg",
     },
   ]
 
