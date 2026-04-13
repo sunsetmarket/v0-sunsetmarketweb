@@ -27,7 +27,7 @@ export function VisitorsSection() {
       day: 11,
       month: 7,
       year: 2026,
-      image: "/images/lacalafoto.jpg",
+      image: "/lacalafoto.jpg",
     },
   ]
 
