@@ -17,7 +17,7 @@ export function VisitorsSection() {
       day: 6,
       month: 6,
       year: 2026,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SUNST%2022%20AGO%202025%20-%200025-aPzSgAKIjcdgH183CoaGDoeIOZMBnP.jpg"
+      image: "/spfoto.jpg",
     },
     {
       name: "Sunset Market La Cala Resort",
@@ -27,7 +27,17 @@ export function VisitorsSection() {
       day: 11,
       month: 7,
       year: 2026,
-      image: "/lacalafoto.jpg",
+      image: "/lacalafoto.jpg", 
+    },
+    {
+      name: "Sunset Market La Cala Resort",
+      location: "C. Mirador del Golf, 1, 29649 Mijas, Málaga, España",
+      date: "08 Agosto2026",
+      time: "17:00 - 22:00",
+      day: 8,
+      month: 8,
+      year: 2026,
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SUNST%2022%20AGO%202025%20-%200025-aPzSgAKIjcdgH183CoaGDoeIOZMBnP.jpg",
     },
   ]
 
