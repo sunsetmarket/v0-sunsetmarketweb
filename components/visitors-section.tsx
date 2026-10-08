@@ -10,34 +10,14 @@ export function VisitorsSection() {
   
   const events = [
     {
-      name: "Sunset Market Boulevard San Pedro Marbella",
-      location: "Avenida Luis Braille, s/n Avenida Norberto Goizueta Díaz, s/n, 29670 San Pedro Alcántara, Málaga, España",
-      date: "6 Junio 2026",
-      time: "16:00 - 21:00",
-      day: 6,
-      month: 5,
-      year: 2026,
-      image: "/spfoto.jpg",
-    },
-    {
       name: "Sunset Market La Cala Resort",
       location: "C. Mirador del Golf, 1, 29649 Mijas, Málaga, España",
-      date: "11 Julio 2026",
-      time: "17:00 - 22:00",
-      day: 11,
-      month: 6,
+      date: "13 Diciembre 2026",
+      time: "12:00 - 17:00",
+      day: 13,
+      month: 12,
       year: 2026,
       image: "/lacalafoto.jpg", 
-    },
-    {
-      name: "Sunset Market La Cala Resort",
-      location: "C. Mirador del Golf, 1, 29649 Mijas, Málaga, España",
-      date: "08 Agosto2026",
-      time: "17:00 - 22:00",
-      day: 8,
-      month: 7,
-      year: 2026,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SUNST%2022%20AGO%202025%20-%200025-aPzSgAKIjcdgH183CoaGDoeIOZMBnP.jpg",
     },
   ]
 
