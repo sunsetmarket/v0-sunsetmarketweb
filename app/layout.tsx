@@ -17,24 +17,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Sunset Market Marbella | Markets Experienciales',
   description: 'Markets experienciales donde convergen marcas emergentes, música, gastronomía y experiencias únicas en Marbella.',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  generator: 'v0.app', 
+icons: {
+  icon: '/LOGO%20SUNSET.png',
+  apple: '/LOGO%20SUNSET.png',
+},
 }
 
 export default function RootLayout({
