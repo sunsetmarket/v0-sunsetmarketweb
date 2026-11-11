@@ -5,11 +5,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Sunset Market Marbella | Markets Experienciales',
   description: 'Markets experienciales donde convergen marcas emergentes, música, gastronomía y experiencias únicas en Marbella.',
-  generator: 'v0.app', 
-icons: {
-  icon: '/LOGO%20SUNSET.png',
-  apple: '/LOGO%20SUNSET.png',
-},
 }
 
 export default function RootLayout({
