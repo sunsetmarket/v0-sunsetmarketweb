@@ -8,29 +8,28 @@ import { Button } from "@/components/ui/button"
 export function VisitorsSection() {
   const [currentMonth, setCurrentMonth] = useState(new Date())
   
-  const events = [ 
-{
-      name: "Christmas Market El Faro Marbella",
-      location: "El Faro de Marbella, Marbella, Málaga, España",
-      date: "5, 6 y 7 Diciembre 2026",
-      time: "13:00 - 21:00",
-      days: [5, 6, 7],
-      month: 12,
-      year: 2026,
-      image: "/el-faro.jpg",
-    },
-    
-    {
-      name: "Sunset Market La Cala Resort",
-      location: "C. Mirador del Golf, 1, 29649 Mijas, Málaga, España",
-      date: "13 Diciembre 2026",
-      time: "12:00 - 17:00",
-      day: 13,
-      month: 12,
-      year: 2026,
-      image: "/lacalafoto.jpg", 
-    },
-  ]
+ const events = [
+  {
+    name: "Christmas Market El Faro Marbella",
+    location: "El Faro de Marbella, Marbella, Málaga, España",
+    date: "5, 6 y 7 Diciembre 2026",
+    time: "13:00 - 21:00",
+    days: [5, 6, 7],
+    month: 12,
+    year: 2026,
+    image: "/el-faro.jpg",
+  },
+  {
+    name: "Sunset Market La Cala Resort",
+    location: "C. Mirador del Golf, 1, 29649 Mijas, Málaga, España",
+    date: "13 Diciembre 2026",
+    time: "12:00 - 17:00",
+    days: [13],
+    month: 12,
+    year: 2026,
+    image: "/lacalafoto.jpg",
+  },
+]
 
   const getDaysInMonth = (date: Date) => {
     return new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate()
