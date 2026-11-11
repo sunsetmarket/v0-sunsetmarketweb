@@ -8,7 +8,18 @@ import { Button } from "@/components/ui/button"
 export function VisitorsSection() {
   const [currentMonth, setCurrentMonth] = useState(new Date())
   
-  const events = [
+  const events = [ 
+{
+      name: "Christmas Market El Faro Marbella",
+      location: "El Faro de Marbella, Marbella, Málaga, España",
+      date: "5, 6 y 7 Diciembre 2026",
+      time: "13:00 - 21:00",
+      days: [5, 6, 7],
+      month: 12,
+      year: 2026,
+      image: "/el-faro.jpg",
+    },
+    
     {
       name: "Sunset Market La Cala Resort",
       location: "C. Mirador del Golf, 1, 29649 Mijas, Málaga, España",
@@ -34,12 +45,20 @@ export function VisitorsSection() {
   const dayNames = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 
   const hasEvent = (day: number) => {
-    return events.some(e => e.day === day && e.month === currentMonth.getMonth() && e.year === currentMonth.getFullYear())
-  }
+  return events.some(
+    e => e.days.includes(day) &&
+    e.month === currentMonth.getMonth() + 1 &&
+    e.year === currentMonth.getFullYear()
+  )
+}
 
   const getEventForDay = (day: number) => {
-    return events.find(e => e.day === day && e.month === currentMonth.getMonth() && e.year === currentMonth.getFullYear())
-  }
+  return events.find(
+    e => e.days.includes(day) &&
+    e.month === currentMonth.getMonth() + 1 &&
+    e.year === currentMonth.getFullYear()
+  )
+}
 
   const highlights = [
     { icon: Sparkles, title: "Marcas Únicas", desc: "Descubre expositores con propuestas únicas, creativas y diferenciadoras." },
